@@ -1,4 +1,4 @@
-/* Container styling */
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -6,7 +6,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* Search bar styling */
+
 .search-bar {
   width: 100%;
   padding: 10px;
@@ -17,19 +17,19 @@
   border-radius: 4px;
 }
 
-/* Total count heading */
+
 h3 {
   margin-bottom: 20px;
 }
 
-/* Grid of countries */
+
 .countries-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 20px;
 }
 
-/* Individual country card */
+
 .countryCard {
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -44,7 +44,7 @@ h3 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Country flag */
+
 .country-flag {
   width: 100%;
   height: auto;
@@ -54,20 +54,20 @@ h3 {
   border-radius: 4px;
 }
 
-/* Country name */
+
 .country-name {
   font-size: 16px;
   font-weight: bold;
   color: #333;
 }
 
-/* Error message */
+
 .error {
   color: red;
   font-weight: bold;
 }
 
-/* No results message */
+
 .countries-grid p {
   font-size: 16px;
   text-align: center;
